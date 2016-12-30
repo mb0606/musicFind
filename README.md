@@ -2,7 +2,7 @@
 #MusicFind
 
 
-![MusicFinddemo](http://www.giphy.com/gifs/3oz8xAkTXVycFEu02k)
+![MusicFinddemo](https://evolution-man.com/wp-content/uploads/2016/12/Music-Find-readme-GIF-Dec-29-2016-19-02-17.gif)
 
 
 
