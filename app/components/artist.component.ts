@@ -29,7 +29,7 @@ import {SpotifyService} from "../services/spotify.services";
            <div class="album well">
             <img class="album-thumb img-thumbnail img-responsive"src="{{album.images[0].url}}">
             <h4>{{album.name}}</h4>
-            <a  class="btn btn-default btn-block" routerLink="/album/{{album.id}}">Album Details</a>
+            <a  class="btn btn-default btn-block view-details" routerLink="/album/{{album.id}}">Album Details</a>
            </div><!-- album well-->
         </span>
 

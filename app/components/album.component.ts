@@ -29,7 +29,7 @@ import {SpotifyService} from "../services/spotify.services";
         <div *ngFor="let track of album.tracks.items">
           <div class="well">
             <h5>{{track.track_number}} - {{track.name}}</h5>
-            <a href="{{track.preview_url}}" target="_blank">Preview Track</a>
+            <a routerLink="/tracks/{{track.id}}">Preview Track</a>
           </div><!-- well -->
         </div><!-- For -->
       </div><!-- album-tracks -->

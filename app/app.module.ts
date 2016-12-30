@@ -15,6 +15,7 @@ import { SearchComponent } from "./components/search.component";
 import { NavbarComponent } from "./components/navbar.component";
 import { ArtistComponent } from "./components/artist.component";
 import {AlbumComponent} from "./components/album.component";
+import {TrackComponent} from "./components/track.component";
 
 @NgModule({
   imports:      [ BrowserModule,
@@ -28,7 +29,8 @@ import {AlbumComponent} from "./components/album.component";
                   SearchComponent,
                   NavbarComponent,
                   ArtistComponent,
-                  AlbumComponent
+                  AlbumComponent,
+                  TrackComponent
                 ],
   providers: [SpotifyService],
   bootstrap:    [ AppComponent ]

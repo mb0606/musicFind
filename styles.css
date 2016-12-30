@@ -54,12 +54,20 @@ min-height: 400px;
 }
 
 .album {
-text-align: center;
-background: #333;
-padding: 10px 20px;
-border: #666 1px solid;
+  position:relative;
+  text-align: center;
+  background: #333;
+  padding: 10px 20px;
+  border: #666 1px solid;
 }
 
 .album-thumb {
 width: 100%;
+}
+
+.view-details {
+  position:absolute;
+  bottom: 10px;
+  right:2px;
+
 }
